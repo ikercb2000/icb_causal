@@ -1,0 +1,22 @@
+[build-system]
+requires = ["setuptools", "wheel"]
+build-backend = "setuptools.build_meta"
+
+[project]
+name = "icb_causal"
+version = "0.0.1"
+authors = [
+  {name = "Iker Caballero", email = "ikercb2000@gmail.com"},
+]
+maintainers = [
+  {name = "Iker Caballero", email = "ikercb2000@gmail.com"}
+]
+description = "Causal inference and learning package that merges different causal packages and adds new features"
+readme = {file = "README.md", content-type = "text/markdown"}
+license = {text = "MIT"}
+requires-python = ">=3.7"
+dynamic = ["dependencies"]
+
+[tool.setuptools]
+package-dir = { "" = "src" }
+packages = ["causal_ml]
