@@ -3,6 +3,5 @@ econml==0.15.1
 numpy==2.2.2
 pandas==2.2.3
 pytest==8.3.4
-python-dotenv==1.0.1
 setuptools==75.6.0
 tqdm==4.67.1
